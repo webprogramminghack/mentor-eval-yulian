@@ -1,0 +1,12 @@
+.input {
+  border-radius: rem-calc(100);
+  padding: rem-calc(10);
+  border: rem-calc(1) solid $border-gray; 
+  color: $light-gray;
+  height: rem-calc(40);
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}

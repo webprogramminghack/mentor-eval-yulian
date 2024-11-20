@@ -1,0 +1,26 @@
+.overlay {
+  background-color: $overlay;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: $white;
+  border-radius: rem-calc(10);
+  padding: rem-calc(20);
+  min-width: rem-calc(400);
+  display: flex;
+  flex-direction: column;
+  gap: rem-calc(20);
+}
+
+.heading {
+  font-size: rem-calc(20);
+  font-weight: bold;
+}

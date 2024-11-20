@@ -1,0 +1,19 @@
+.card {
+  background-color: $card-gray;
+  padding: rem-calc(20);
+  border-radius: rem-calc(40);
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  gap: rem-calc(10);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: rem-calc(10);
+  padding: rem-calc(10);
+  gap: rem-calc(10);
+}

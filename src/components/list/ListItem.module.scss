@@ -1,0 +1,10 @@
+.item {
+  background-color: $white;
+  display: flex;
+  border-radius: rem-calc(20);
+  font-weight: bold;
+  align-items: center;
+  padding: rem-calc(10);
+  gap: rem-calc(5);
+  cursor: pointer;
+}
